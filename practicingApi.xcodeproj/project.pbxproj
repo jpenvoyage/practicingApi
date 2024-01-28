@@ -19,6 +19,8 @@
 		2FFDA78B2B6594DD001922CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2FFDA78D2B6594DE001922CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FFDA7902B6594DE001922CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FFDA7972B66B1ED001922CA /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		2FFDA7982B66B312001922CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,10 @@
 		2FFDA7882B6594DD001922CA /* practicingApi */ = {
 			isa = PBXGroup;
 			children = (
+				2FFDA7982B66B312001922CA /* Info.plist */,
 				2FFDA7892B6594DD001922CA /* practicingApiApp.swift */,
 				2FFDA78B2B6594DD001922CA /* ContentView.swift */,
+				2FFDA7972B66B1ED001922CA /* Config.xcconfig */,
 				2FFDA78D2B6594DE001922CA /* Assets.xcassets */,
 				2FFDA78F2B6594DE001922CA /* Preview Content */,
 			);
@@ -147,6 +151,7 @@
 /* Begin XCBuildConfiguration section */
 		2FFDA7922B6594DE001922CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFDA7972B66B1ED001922CA /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -210,6 +215,7 @@
 		};
 		2FFDA7932B6594DE001922CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFDA7972B66B1ED001922CA /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -274,6 +280,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"practicingApi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = practicingApi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +310,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"practicingApi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = practicingApi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
