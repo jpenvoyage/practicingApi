@@ -11,6 +11,7 @@
 		2FFDA78C2B6594DD001922CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDA78B2B6594DD001922CA /* ContentView.swift */; };
 		2FFDA78E2B6594DE001922CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDA78D2B6594DE001922CA /* Assets.xcassets */; };
 		2FFDA7912B6594DE001922CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDA7902B6594DE001922CA /* Preview Assets.xcassets */; };
+		2FFDA79A2B66BF0A001922CA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDA7992B66BF0A001922CA /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2FFDA7902B6594DE001922CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FFDA7972B66B1ED001922CA /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		2FFDA7982B66B312001922CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2FFDA7992B66BF0A001922CA /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				2FFDA7982B66B312001922CA /* Info.plist */,
 				2FFDA7892B6594DD001922CA /* practicingApiApp.swift */,
 				2FFDA78B2B6594DD001922CA /* ContentView.swift */,
+				2FFDA7992B66BF0A001922CA /* DataService.swift */,
 				2FFDA7972B66B1ED001922CA /* Config.xcconfig */,
 				2FFDA78D2B6594DE001922CA /* Assets.xcassets */,
 				2FFDA78F2B6594DE001922CA /* Preview Content */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FFDA79A2B66BF0A001922CA /* DataService.swift in Sources */,
 				2FFDA78C2B6594DD001922CA /* ContentView.swift in Sources */,
 				2FFDA78A2B6594DD001922CA /* practicingApiApp.swift in Sources */,
 			);
